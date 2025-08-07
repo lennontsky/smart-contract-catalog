@@ -1,0 +1,30 @@
+{
+  "extends": "./node_modules/@kadena-dev/shared-config/tsconfig-base.json",
+  "compilerOptions": {
+    "types": ["node", "vitest-dom/extend-expect", "vitest/globals"],
+    "target": "ES2020",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "skipLibCheck": true,
+    "noEmit": true,
+    "incremental": true,
+    "moduleResolution": "Bundler",
+    "module": "ESNext",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "declaration": false,
+    "declarationMap": false,
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "allowJs": true,
+    "jsx": "preserve",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "strictNullChecks": true
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
+}
