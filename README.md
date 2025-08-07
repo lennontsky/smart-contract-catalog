@@ -1,9 +1,6 @@
-# Kadena Tools App
+# Kadena Smart Contract Catalog App
 
-This repository contains the source code and documentation for the Kadena
-Transfer App, a decentralized application (dApp) built on the Kadena blockchain
-platform. The Kadena Transfer App allows users to transfer digital assets
-securely and efficiently using smart contracts on the Kadena blockchain.
+This repository is an extention of the original Kadena Transfer App, but adapted to host a simple interface for the smart contract catalog for kadena's blockchain, it's an implementation for the bounty ofered[https://app.wonderverse.xyz/organization/kadena/boards?entity=bounty&task=158613465108316223].
 
 ## Table of Contents
 
@@ -21,29 +18,21 @@ To install and run the Kadena Transfer App locally, follow these steps:
 2. Build the app and its dependencies:
 
 ```sh
-pnpm --filter @kadena/tools build
+pnpm install
 ```
 
-3. Navigate to the `packages/apps/tools` directory
-
-4. Setup environment variables:
-
-```sh
-cp .env.example .env.local
-```
-
-5. Start the app:
+3. Start the app:
 
 ```sh
 pnpm dev
 ```
 
-The Kadena Transfer App will be accessible at [http://localhost:3000][6] in your
+The Kadena Smart Contract Catalog will be accessible at [http://localhost:3000][6] in your
 web browser.
 
-## Usage
+## Usage - TBD
 
-The project provides a set of functionalities that enable users to interact with
+<!-- The project provides a set of functionalities that enable users to interact with
 a blockchain network. The main features of the project include:
 
 1. **Keypair Generation**: The project allows users to generate a keypair
@@ -87,7 +76,7 @@ a blockchain network. The main features of the project include:
 
 Together, these features empower users to interact with the blockchain network,
 manage their identities, monitor account balances, transfer digital assets, and
-explore the blockchain's data.
+explore the blockchain's data. -->
 
 ## License
 
