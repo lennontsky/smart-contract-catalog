@@ -14,14 +14,17 @@ This repository is an extention of the original Kadena Transfer App, but adapted
 To install and run the Kadena Transfer App locally, follow these steps:
 
 1. Read [CONTRIBUTING.md][5].
-
-2. Build the app and its dependencies:
+2. Get pnpm from npm if needed
+```sh  
+npm install -g pnpm@latest-10
+```
+3. Build the app and its dependencies:
 
 ```sh
 pnpm install
 ```
 
-3. Start the app:
+4. Start the app:
 
 ```sh
 pnpm dev
